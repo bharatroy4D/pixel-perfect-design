@@ -15,7 +15,7 @@ const Navbar = () => {
                     {links.map(item => (
                         <Link key={item.id} to={item.path} className='text-base font-normal text-[#4F4D4D]'>{item.link}</Link>
                     ))}
-                    <button className='text-white text-sm py-1 px-3 ml-3 rounded-full border-[#000000] border-r-2 border-b-2 bg-[#FFA500]'>Book a Free Consaltation</button>
+                    <button className='text-white text-sm py-1 px-3 ml-3 rounded-full border-[#000000] border-r-2 border-b-2 cursor-pointer bg-[#FFA500]'>Book a Free Consaltation</button>
                 </div>
             </div>
         </div>
