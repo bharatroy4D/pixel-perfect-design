@@ -29,13 +29,18 @@ const MarketStatices = () => {
                 </div>
             </div>
             {/* story content */}
-            <div className='space-y-5 '>
+            <div className='space-y-5 my-10 '>
                 <div className='flex items-center justify-center gap-2'>
                     <img src={amazon} alt="" className='w-16' />
                     <p className='text-base'>Our <span className='text-[#FFA500]'>Story</span></p>
                 </div>
                 <h1 className='text-4xl w-3xl text-center mx-auto px-5 '>Struggling With Amazon Sales? Let’s Scale Your Business—Faster, Smarter, & Stress-Free!</h1>
-                <p className='w-lg px-6 text-base text-center mx-auto'>Amazon is complex, but success doesn’t have to be. At FINTRIXX, we help sellers increase sales, optimize ads, rank higher, and expand into new markets —without wasting time or money. 🎯 Let’s turn your struggles into scalable success!</p>
+                <p className='w-lg px-5 text-base text-center mx-auto'>Amazon is complex, but success doesn’t have to be. At FINTRIXX, we help sellers increase sales, optimize ads, rank higher, and expand into new markets —without wasting time or money. 🎯 Let’s turn your struggles into scalable success!</p>
+
+                <div className='flex justify-center'>
+                    <button className='text-white text-sm  py-1 px-3 ml-3 rounded-full border-[#000000] border-r-2 border-b-2 bg-[#FFA500] cursor-pointer'>Book a Free Consaltation</button>
+                </div>
+
             </div>
         </div>
     );
