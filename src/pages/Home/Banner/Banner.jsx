@@ -3,7 +3,7 @@ import amazon from '../../../assets/amazon.png';
 
 const Banner = () => {
     return (
-        <div className='flex flex-col bg-gradient-to-t from-[#FFA500]/50 to-[#FFFFFF] items-center justify-center gap-3 h-screen '>
+        <div className='flex flex-col bg-gradient-to-t from-[#FFA500]/10 to-[#FFFFFF] items-center justify-center gap-3 h-screen '>
             <div className='flex items-center justify-center gap-3'>
                 <img src={amazon} alt="banner" className='w-16' />
                 <p>Your Full-Service <span className='text-[#FFA500]'>Amazon Partner</span></p>
